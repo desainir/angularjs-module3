@@ -1,0 +1,7 @@
+  <ol>
+	<li ng-repeat="result in menu.items">
+	  {{result.name}}, {{result.short_name}} , {{result.description}} 
+	  <button class="btn btn-primary" ng-click="menu.removeItem($index);">Don't want this one! </button>
+	</li>
+  </ol>
+  
